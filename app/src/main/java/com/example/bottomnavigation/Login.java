@@ -20,5 +20,13 @@ public class Login extends AppCompatActivity {
                 startActivity(new Intent(Login.this, MainActivity.class));
             }
         });
+
+        TextView btn1 = findViewById(R.id.SignUpText);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Login.this, RegisterActivity.class));
+            }
+        });
     }
 }
