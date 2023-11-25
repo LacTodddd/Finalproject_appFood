@@ -141,8 +141,8 @@
         android:layout_marginTop="44dp"
         android:gravity="top"
         android:text="Privacy Policy"
-        android:textSize="22sp"
         android:textColor="#000000"
+        android:textSize="22sp"
         app:layout_constraintStart_toEndOf="@+id/hide"
         app:layout_constraintTop_toBottomOf="@+id/progressBar1" />
 
@@ -222,7 +222,7 @@
         app:layout_constraintTop_toBottomOf="@+id/language" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/logoutbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
