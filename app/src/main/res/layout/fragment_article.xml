@@ -89,6 +89,7 @@
                             android:src="@drawable/h_1" />
 
                         <TextView
+                            android:id="@+id/textart1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -124,6 +125,7 @@
                             android:src="@drawable/h_2" />
 
                         <TextView
+                            android:id="@+id/textart2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -292,6 +294,7 @@
                             android:src="@drawable/d_2" />
 
                         <TextView
+                            android:id="@+id/textart3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -327,6 +330,7 @@
                             android:src="@drawable/d_3" />
 
                         <TextView
+                            android:id="@+id/textart4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
