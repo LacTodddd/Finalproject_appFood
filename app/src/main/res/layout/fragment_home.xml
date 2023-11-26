@@ -72,6 +72,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/cardView">
 
                 <ImageView
+                    android:id="@+id/morearti"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/h_4" />
@@ -164,9 +165,11 @@
                 android:id="@+id/textView4"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
-                android:paddingLeft="20dp"
+                android:paddingLeft="30dp"
                 android:text="Article"
-                android:textSize="20sp" />
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/Space"
@@ -215,6 +218,7 @@
                     android:src="@drawable/d_3" />
 
                 <TextView
+                    android:id="@+id/id2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -255,9 +259,11 @@
                     android:src="@drawable/h_1" />
 
                 <TextView
+                    android:id="@+id/id1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:paddingLeft="8dp"
                     android:text="รู้จักอาหารทางเลือกตามกรุ๊ปเลือดเพื่อสุขภาวะที่ดี"
                     android:textSize="10sp" />
 
@@ -274,13 +280,15 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cardView3">
-            <TextView
-            android:layout_width="100dp"
-            android:layout_height="30dp"
-            android:paddingLeft="20dp"
-            android:text="Food"
-            android:textSize="20sp" />
 
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="Food"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
             <TextView
                 android:id="@+id/Space1"
                 android:layout_width="120dp"
@@ -289,7 +297,8 @@
                 android:text=" " />
 
             <TextView
-                android:id="@+id/textView10"
+
+                android:id="@+id/morefood"
                 android:layout_width="10dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
