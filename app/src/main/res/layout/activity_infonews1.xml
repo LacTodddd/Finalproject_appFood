@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:scrollbars="none"
+    tools:context=".infonews1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/img_6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            app:cardCornerRadius="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:lineSpacingExtra="-13sp"
+                    android:text="ทานอาหารตามกรุ๊ปเลือดคืออะไร"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/arti2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="25dp"
+                    android:gravity="left"
+                    android:text="          ดร.ทน.พญ.ณิชชา ไพรัตน์ นักเทคนิคการแพทย์หญิง ประจำงานธนาคารเลือด โรงพยาบาลธรรมศาสตร์เฉลิมพระเกียรติ ได้อธิบายไว้ว่า การรับประทานอาหารตามกรุ๊ปเลือด เป็นเทรนด์ใหม่ที่ได้รับความนิยมของ Dr.Perer J.D’Adammo ซึ่งได้รับรางวัลแพทย์ธรรมชาติบำบัดยอดเยี่ยมจากอเมริกา ปี 1990 โดยเขาใช้เวลาในการศึกษาเรื่องนี้มานานกว่า 30 ปี จนได้ข้อสรุป และเขียนเป็นหนังสือ Eat Right for your Type"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/arti1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="          โดยเขาอธิบายว่า เลือดแต่ละกรุ๊ปมีสารเคมีในเลือดต่างกัน แต่จะมี Antigen เป็นตัวกระตุ้นการสร้างภูมิคุ้มกันให้กับร่างกาย ซึ่งอาหารทุกชนิดล้วนมีโปรตีนซึ่งเป็นอนุมูลอิสระ มีคุณสมบัติเหนียว และจับเกาะติดเลือดเรียกว่า “เล็คติน” ถ้าการกินอาหารที่มีเล็คตินไม่เหมาะสมกับเลือดเรา เล็คตินเหล่านั้นยังเข้าไปรบกวนการทำงานของระบบย่อยอาหาร การสร้างอินซูลิน การเผาผลาญอาหาร และความสมดุลของฮอร์โมน     คุณสุวิมล  สุธีโสภณ ต้นตำรับอาหารแนว Blood Type Cuisine ในชื่อ The Third Floor อาคารวีรสุ ถนนวิทยุ เป็นผู้ที่ศึกษา และทดลองกินอาหารตามกรุ๊ปเลือดมานานกว่า 3 ปี ได้กล่าวว่ากินแบบนี้ไม่ทรมานตัวเองจนเกินไป ขณะที่กินอาหารแนวอื่น อาจจะทำให้เรารู้สึกเครียดเพราะความอยากกิน แต่วิธีนี้เพียงแต่เรากินของที่ห้ามให้น้อยลง และกินของมีประโยชน์ให้มากขึ้น ซึ่งผลพลอยได้คือน้ำหนักลด และโรคปวดตามข้อค่อย ๆ หายไป      โดยหลายคนที่นำเอาหลักการนี้ไปใช้ แล้วลองทำกับข้าวรับประทานเองชมว่า เขาน้ำหนักลดลง ไปรับประทานอาหารนอกบ้านก็ไม่ลำบาก เพราะเราสามารถเอาหลักการกินตามกรุ๊ปเลือดไปปรับใช้ได้ โดยสามารถแบ่งได้ตามแต่ละกรุ๊ปเลือด ดังนี้"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/arti4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="เลือดกรุ๊ปเอ กรุ๊ปเลือดของสายมังสวิรัติ"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/arti5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="          โดยอาหารที่เหมาะกับกรุ๊ปเลือดเอ คือ อาหารประเภทปลา ที่ช่วยเสริมสร้างโปรตีน ซึ่งควรทานปลา 3-4 ครั้ง ต่อสัปดาห์ แต่ให้หลีกเลี่ยงปลาเนื้อขาว เช่น ปลาตาเดียว หรือปลาจะละเม็ด ที่มีเล็คตินซึ่งรบกวนระบบการย่อยอาหาร และลดการรับประทานเนื้อสัตว์ต่าง ๆ ให้น้อยลง และเลือกดื่มนมถั่วเหลือง หรือโยเกิร์ตไขมันต่ำแทน และควรเลือกดื่มนมแพะแทนนมวัว ควรเลือกทานอาหารประเภทธัญพืช โดยเฉพาะ เมล็ดทานตะวัน ถั่วลิสง ถั่วเหลือง ข้าวกล้อง และซีเรียล และเลือกรับประทานผัก ได้ทั้งผักสดและผักสุก โดยเฉพาะหอมหัวใหญ่ และบร็อคโคลี ที่มีสารแอนติออกซิแดนท์สูง และ แครอท ฟักทอง ผักโขม และกระเทียม ที่ช่วยกระตุ้นการสร้างภูมิคุ้มกัน สำหรับผลไม้ ไม่ควรทานแตงโม แคนตาลูป มะม่วง มะละกอ กล้วย ส้ม เพราะจะย่อยยาก"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/arti6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="เลือดกรุ๊ปบี ทานได้หลากหลายแต่อ้วนง่าย!!"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/arti7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="          ซึ่งคนเลือดกรุ๊ปบี มีอาหารที่เหมาะกับกรุ๊ปเลือด คือเนื้อแกะ ปลาน้ำลึก เช่น ปลาหิมะ ปลาเนื้อขาว ปลาจะละเม็ด ปลาตาเดียว และควรลดการทานเนื้อหมู ไก่ กุ้ง ปู และหอยแครงให้น้อยลง เพราะเป็นการรบกวนระบบต่าง ๆ ในร่างกาย สามารถรับประทานข้าวโอ๊ต ข้าวกล้องได้ ในขณะที่แป้งสาลี ถั่วลิสง และโฮลวีท ไม่ดีต่อระบบเผาผลาญของคนเลือดกรุ๊ปบีอีกด้วย สามารถทานผลไม้ได้เกือบทุกชนิด ยกเว้น ลูกพลับ ทับทิม และลูกแพร์ และควรดื่มน้ำขิง เปปเปอร์มินต์ และชาเขียว เพื่อการบำรุงร่างกายด้วย"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/arti8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="เลือดกรุ๊ปโอ อาหารย่อยง่ายโปรตีนสูง"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/arti9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="          สำหรับคนเลือดกรุ๊ปโอ จะมีกระเพาะอาหารที่มีความเป็นกรดสูง ทำให้สามารถย่อยอาหารได้ดีกว่าคนเลือดกรุ๊ปอื่น ๆ แต่ในทางกลับกัน คนเลือดกรุ๊ปโอ จะมีระบบเผาผลาญที่ไม่ค่อยดี มีระดับฮอร์โมนไทรอยด์ไม่คงที่ ทำให้อ้วนง่าย และเลือดแข็งตัวช้า  โดยคนเลือดกรุ๊ปโอสามารถเลือกทานเนื้อได้ตามใจชอบ รวมไปถึงอาหารทะเล เพียงแค่ต้องระวังเรื่องปัญหาไขมันและโคเรสเตอรอลสักหน่อย และควรเลี่ยงอาหารประเภทแป้งให้ได้มากที่สุด และควรต้องเน้นผักที่มีวิตามินเค อย่าง บร็อกโคลี และผักโขม ซึ่งจะช่วยให้เลือดแข็งตัวได้ดี และควรหลีกเลี่ยงการรับประทานมะเขือยาว และมันฝรั่ง ซึ่งจะทำให้ปวดข้อได้ ควรหลีกเลี่ยงผลไม้ที่มีกรดสูงอย่าง แคนตาลูป มะพร้าว ส้ม และสตรอเบอร์รี่ ควรงด ชา กาแฟ เพราะจะเป็นการเพิ่มกรดในกระเพาะได้"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/arti10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="  เลือดกรุ๊ปเอบี มังสวิรัตินิดๆ คาร์โบไฮเดรตหน่อยๆ"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/arti11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="          คนเลือดกรุ๊ปเอบี เป็นส่วนผสมที่ลงตัวระหว่างกรุ๊ปเลือดเอ และกรุ๊ปเลือดบี ดังนั้น คนเลือดกรุ๊ปเอบี จะเป็นส่วนผสมของการรับประทานมังสวิรัตินิด ๆ กับคาร์โบไฮเดรตหน่อย ๆ จุดอ่อนสำคัญของคนเลือดกรุ๊ปเอบี จึงเป็นเรื่องของระบบภูมิคุ้มกันที่อ่อนแอ กับกรดในกระเพาะต่ำ    โดยอาหารสำหรับคนเลือดกรุ๊ปเอบี จะเป็น ผลิตภัณฑ์จากถั่วเหลือง และเต้าหู้ ไม่ควรทานอาหารที่ย่อยยาก อย่างปลาเนื้อขาว และแซลมอนรมควัน เน้นอาหารไขมันต่ำจำพวกเนย นม ไข่ และโยเกิร์ตไขมันต่ำ ควรงดเว้นการรับประทานถั่วแดง งา เมล็ดฟักทอง เมล็ดทานตะวัน ข้าวโพด เพราะจะชะลอการทำงานของอินซูลิน ทำให้น้ำตาลในเลือดลดลงเฉียบพลัน และควรทานผักสดเยอะ ๆ เพื่อช่วยป้องกันมะเร็ง และโรคหัวใจ และไม่ควรกินกล้วย มะม่วง ฝรั่ง ส้ม เพราะเป็นอาหารที่ย่อยยาก"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/white" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
