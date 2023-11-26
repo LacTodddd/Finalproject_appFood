@@ -362,7 +362,7 @@
                 android:layout_marginTop="10dp"
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
-                android:src="@drawable/pizza" />
+                android:src="@drawable/pizzarealpapatod" />
 
             <TextView
                 android:layout_width="wrap_content"
