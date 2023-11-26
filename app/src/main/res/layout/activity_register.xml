@@ -7,6 +7,37 @@
     android:background="@drawable/sin_1"
     tools:context=".RegisterActivity">
 
+    <TextView
+        android:id="@+id/Login01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="90"
+        android:textColor="@color/white"
+        android:text="Login"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
+
+    <TextView
+        android:id="@+id/SignUp01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="90"
+        android:text="Sign Up"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Login01"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="@+id/Login01"
+        app:layout_constraintTop_toBottomOf="@+id/Login01"
+        app:layout_constraintVertical_bias="0.336" />
+
     <EditText
         android:id="@+id/inputUsername"
         android:layout_width="296dp"
@@ -64,14 +95,14 @@
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="0dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="164dp"
+        android:layout_width="185dp"
+        android:layout_height="47dp"
         android:layout_marginTop="36dp"
         android:backgroundTint="@color/white"
         android:text="Regsiter"
         android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/inputconfirmpass"
+        app:layout_constraintStart_toStartOf="@+id/inputconfirmpass"
         app:layout_constraintTop_toBottomOf="@+id/inputconfirmpass" />
 
     <TextView
@@ -83,8 +114,9 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLogin"
-        app:layout_constraintVertical_bias="0.228" />
+        app:layout_constraintVertical_bias="0.225" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

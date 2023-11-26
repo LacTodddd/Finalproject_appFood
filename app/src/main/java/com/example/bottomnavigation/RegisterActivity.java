@@ -18,5 +18,13 @@ public class RegisterActivity extends AppCompatActivity {
                 startActivity(new Intent(RegisterActivity.this, Login.class));
             }
         });
+
+        TextView btn1 = findViewById(R.id.Login01);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(RegisterActivity.this, Login.class));
+            }
+        });
     }
 }

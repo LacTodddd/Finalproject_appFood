@@ -19,13 +19,6 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
 
-        TextView btn1 = view.findViewById(R.id.morefood);
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getActivity(), FoodFragment.class));
-            }
-        });
         TextView btn2 = view.findViewById(R.id.id1);
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
