@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GekhuyData">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/ganghou"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="200dp"
+        app:cardCornerRadius="60dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="420dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Pizza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:lineSpacingExtra="-13sp"
+                android:text="เก๊กฮวย"
+                android:textColor="@color/lavender"
+                android:textSize="30sp" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/pizza1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="left"
+                android:lineSpacingExtra="-13sp"
+                android:paddingLeft="10dp"
+                android:text=":   น้ำเก๊กฮวย 1 แก้วให้พลังงาน 72 kcal."
+                android:textColor="@color/lavender"
+                android:textSize="20sp" />
+
+
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:lineSpacingExtra="-13sp"
+                android:paddingLeft="20dp"
+                android:text="ข้อมูลโภชนาการ"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:lineSpacingExtra="-1sp"
+                android:paddingLeft="20dp"
+                android:text=" ในปริมาณ 400 ml มีพลังงานทั้งหมด 72 กิโลแคลอรี่, โปรตีน 0 กรัม, คาร์โบไฮเดรต 18 กรัม, ไขมัน 0 กรัม เราสามารถดูรายละเอียดข้อมูลอื่นๆ เข่น เกลือโซเดียม, คอเลสเตอรอล, วิตามิน, ไขมันอิ่มตัว, ไขมันไม่อิ่มตัว, น้ำตาล, กากไยอาหาร"
+                android:textColor="#7ECC49"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
