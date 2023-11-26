@@ -90,6 +90,7 @@
 
                         <TextView
                             android:id="@+id/textart1"
+                            android:paddingLeft="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -125,6 +126,7 @@
                             android:src="@drawable/h_2" />
 
                         <TextView
+                            android:paddingLeft="10dp"
                             android:id="@+id/textart2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -162,6 +164,7 @@
                             android:src="@drawable/h_3" />
 
                         <TextView
+                            android:paddingLeft="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -197,6 +200,7 @@
                             android:src="@drawable/h_4" />
 
                         <TextView
+                            android:paddingLeft="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -259,6 +263,7 @@
                             android:src="@drawable/d_1" />
 
                         <TextView
+                            android:paddingLeft="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -294,6 +299,7 @@
                             android:src="@drawable/d_2" />
 
                         <TextView
+                            android:paddingLeft="10dp"
                             android:id="@+id/textart3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -330,6 +336,7 @@
                             android:src="@drawable/d_3" />
 
                         <TextView
+                            android:paddingLeft="10dp"
                             android:id="@+id/textart4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -366,6 +373,7 @@
                             android:src="@drawable/d_4" />
 
                         <TextView
+                            android:paddingLeft="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -426,6 +434,7 @@
                             android:src="@drawable/w_1" />
 
                         <TextView
+                            android:paddingLeft="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -459,6 +468,7 @@
                             android:src="@drawable/w_2" />
 
                         <TextView
+                            android:paddingLeft="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -492,6 +502,7 @@
                             android:src="@drawable/w_3" />
 
                         <TextView
+                            android:paddingLeft="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -525,6 +536,7 @@
                             android:src="@drawable/w_4" />
 
                         <TextView
+                            android:paddingLeft="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"

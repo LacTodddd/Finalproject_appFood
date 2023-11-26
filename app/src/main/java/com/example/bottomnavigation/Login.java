@@ -21,7 +21,8 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        TextView btn1 = findViewById(R.id.SignUpText);
+
+        TextView btn1 = findViewById(R.id.SignUp01);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
