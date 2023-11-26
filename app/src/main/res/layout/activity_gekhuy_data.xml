@@ -43,7 +43,7 @@
                 android:gravity="center"
                 android:lineSpacingExtra="-13sp"
                 android:text="เก๊กฮวย"
-                android:textColor="@color/lavender"
+                android:textColor="#8C5436"
                 android:textSize="30sp" />
 
             <ProgressBar
@@ -62,7 +62,7 @@
                 android:lineSpacingExtra="-13sp"
                 android:paddingLeft="10dp"
                 android:text=":   น้ำเก๊กฮวย 1 แก้วให้พลังงาน 72 kcal."
-                android:textColor="@color/lavender"
+                android:textColor="#8C5436"
                 android:textSize="20sp" />
 
 
@@ -76,7 +76,7 @@
                 android:lineSpacingExtra="-13sp"
                 android:paddingLeft="20dp"
                 android:text="ข้อมูลโภชนาการ"
-                android:textColor="@color/black"
+                android:textColor="#813913"
                 android:textSize="20sp" />
 
             <TextView
@@ -88,7 +88,7 @@
                 android:lineSpacingExtra="-1sp"
                 android:paddingLeft="20dp"
                 android:text=" ในปริมาณ 400 ml มีพลังงานทั้งหมด 72 กิโลแคลอรี่, โปรตีน 0 กรัม, คาร์โบไฮเดรต 18 กรัม, ไขมัน 0 กรัม เราสามารถดูรายละเอียดข้อมูลอื่นๆ เข่น เกลือโซเดียม, คอเลสเตอรอล, วิตามิน, ไขมันอิ่มตัว, ไขมันไม่อิ่มตัว, น้ำตาล, กากไยอาหาร"
-                android:textColor="#7ECC49"
+                android:textColor="#813913"
                 android:textSize="20sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
