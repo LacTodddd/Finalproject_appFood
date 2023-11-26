@@ -6,7 +6,8 @@
     android:layout_height="wrap_content"
     android:background="@color/white"
     android:scrollbars="none"
-    tools:context=".infonews2">
+    tools:context=".infonews3">
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -15,27 +16,29 @@
         <TextView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginTop="36dp"
             android:background="@drawable/arrow_back_24"
-            android:backgroundTint="@color/black"
+            android:backgroundTint="@color/white"
             android:elevation="1dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.043"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1">
         </TextView>
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:background="@drawable/img_7"
+            android:background="@drawable/img_8"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="200dp"
@@ -58,9 +61,9 @@
                     android:layout_marginTop="12dp"
                     android:gravity="center"
                     android:lineSpacingExtra="-13sp"
-                    android:text="บริโภคอาหารอย่างไร ให้มีสุขภาพดี"
+                    android:text="7 เคล็ดลับวางแผนลดหวานได้สำเร็จ"
                     android:textColor="@color/black"
-                    android:textSize="22sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <ProgressBar
@@ -77,7 +80,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginTop="25dp"
                     android:gravity="left"
-                    android:text="          ในการบริโภคอาหารเพื่อการมีสุขภาพที่ดี นอกจากบริโภคตามหลัก 5 หมู่แล้ว สำนักโภชนาการกรมอนามัยได้มีข้อแนะนำการบริโภคตามโภชนาการบัญญัติ 9 ประการ ดังนี้"
+                    android:text="   แผนที่ดีจะช่วยเพิ่มโอกาสความสำเร็จในการปรับพฤติกรรม ซึ่งแผนที่ดีควรเป็นแผนที่เหมาะสมกับคนคนนั้น เหมาะกับวิถีชีวิต สภาพจิตใจ แรงจูงใจ และความพร้อมในการลงมือทำ มาดูกันว่าเราจะลดหวานได้อย่างไรด้วยวิธีเหล่านี้"
                     android:textColor="@color/teal_700"
                     android:textSize="18sp" />
 
@@ -90,9 +93,9 @@
                     android:layout_marginTop="10dp"
                     android:gravity="left"
                     android:paddingLeft="10dp"
-                    android:text="1. กินอาการให้ครบ 5 หมู่ เพื่อควบคุมน้ำหนักตัวเอง"
+                    android:text="1.หาแรงจูงใจให้ตัวเอง เช่น ต้องมีสุขภาพดี อย่างมีรูปร่างดี ใส่เสื้อผ้าแล้วดูดี"
                     android:textColor="@color/teal_700"
-                    android:textSize="18sp" />
+                    android:textSize="16dp" />
                 <TextView
                     android:id="@+id/arti3"
                     android:layout_width="wrap_content"
@@ -101,9 +104,9 @@
                     android:layout_marginTop="10dp"
                     android:gravity="left"
                     android:paddingLeft="10dp"
-                    android:text="2. กินข้าวเป็นหลัก และสลับกับอาหารประเภทแป้งเป็นบางมื้อ เช่น ข้าวกล้อง ข้าวซ้อมมือ"
+                    android:text="2.มีเป้าหมายที่ชัดเจน เช่น จะหยุดดื่มน้ำอัดลมให้ได้ 1 ปี"
                     android:textColor="@color/teal_700"
-                    android:textSize="18sp" />
+                    android:textSize="16dp" />
                 <TextView
                     android:id="@+id/arti4"
                     android:layout_width="wrap_content"
@@ -112,9 +115,9 @@
                     android:layout_marginTop="10dp"
                     android:gravity="left"
                     android:paddingLeft="10dp"
-                    android:text="3. กินพืชผักให้มาก และกินผลไม้เป็นประจำ"
+                    android:text="3.มีแผนเมื่ออยู่ในสถานการณ์เสี่ยง เช่น เมื่อจำเป็นต้องไปงานเลี้ยงสังสรรค์ จะกินแค่พออิ่ม"
                     android:textColor="@color/teal_700"
-                    android:textSize="18sp" />
+                    android:textSize="16dp" />
                 <TextView
                     android:id="@+id/arti5"
                     android:layout_width="wrap_content"
@@ -123,9 +126,9 @@
                     android:layout_marginTop="10dp"
                     android:gravity="left"
                     android:paddingLeft="10dp"
-                    android:text="4. กินเนื้อปลา เนื้อสัตว์ ไข่ และถั่วเป็นประจำ"
+                    android:text="4.จัดบ้านให้ห่างของหวาน เช่น งดซื้อของหวานเข้าบ้าน"
                     android:textColor="@color/teal_700"
-                    android:textSize="18sp" />
+                    android:textSize="16dp" />
                 <TextView
                     android:id="@+id/arti6"
                     android:layout_width="wrap_content"
@@ -134,9 +137,9 @@
                     android:layout_marginTop="10dp"
                     android:gravity="left"
                     android:paddingLeft="10dp"
-                    android:text="5. ดื่มนมให้เหมาะสมตามวัย"
+                    android:text="5.หาคนช่วย เช่น หาวิธีพูดคุยให้เขาได้ช่วยปรับพฤติกรรม เพราะคนรอบข้างส่งผลต่อพฤติกรรมของเราได้"
                     android:textColor="@color/teal_700"
-                    android:textSize="18sp" />
+                    android:textSize="16dp" />
                 <TextView
                     android:id="@+id/arti7"
                     android:layout_width="wrap_content"
@@ -145,9 +148,9 @@
                     android:layout_marginTop="10dp"
                     android:gravity="left"
                     android:paddingLeft="10dp"
-                    android:text="6. กินอาหารที่มีไขมันแต่พอเหมาะ"
+                    android:text="6.มีความรู้และทักษะ เช่น รู้ว่าอาหารแต่ละประเภทมีพลังงานกี่แคลอรี่ ต้องไม่กินน้ำตาลเกิน 6 ช้อนชา/วัน"
                     android:textColor="@color/teal_700"
-                    android:textSize="18sp" />
+                    android:textSize="16dp" />
                 <TextView
                     android:id="@+id/arti8"
                     android:layout_width="wrap_content"
@@ -156,31 +159,9 @@
                     android:layout_marginTop="10dp"
                     android:gravity="left"
                     android:paddingLeft="10dp"
-                    android:text="7. หลีกเลี่ยงอาหารรสหวานจัด เค็มจัด และเผ็ด"
+                    android:text="7.สะกดจิตตัวเองด้วยคำพูด เช่น ไม่อยากกลับไปป่วยแล้ว"
                     android:textColor="@color/teal_700"
-                    android:textSize="18sp" />
-                <TextView
-                    android:id="@+id/arti9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:gravity="left"
-                    android:paddingLeft="10dp"
-                    android:text="8. กินอาหารที่สะอาด ปราศจากสารปนเปื้อน"
-                    android:textColor="@color/teal_700"
-                    android:textSize="18sp" />
-                <TextView
-                    android:id="@+id/arti10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:gravity="left"
-                    android:paddingLeft="10dp"
-                    android:text="9. งดหรือลด เครื่องดื่มที่มีแอลกอฮอล์"
-                    android:textColor="@color/teal_700"
-                    android:textSize="18sp" />
+                    android:textSize="16dp" />
 
                 <TextView
                     android:layout_width="match_parent"

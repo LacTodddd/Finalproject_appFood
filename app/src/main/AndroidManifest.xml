@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BottomNavigation"
         tools:targetApi="31">
         <activity
+            android:name=".infonews4"
+            android:exported="false" />
+        <activity
             android:name=".infonews3"
             android:exported="false" />
         <activity
