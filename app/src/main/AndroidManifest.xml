@@ -16,6 +16,15 @@
             android:name=".infonews4"
             android:exported="false" />
         <activity
+            android:name=".gaipoi"
+            android:exported="false" />
+        <activity
+            android:name=".BlueberryCheese"
+            android:exported="false" />
+        <activity
+            android:name=".GekhuyData"
+            android:exported="false" />
+        <activity
             android:name=".infonews3"
             android:exported="false" />
         <activity

@@ -31,6 +31,29 @@ public class FoodFragment extends Fragment {
             }
         });
 
+        TextView btn1 = view.findViewById(R.id.text12);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), GekhuyData.class));
+            }
+        });
+
+        TextView btn2 = view.findViewById(R.id.text13);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), gaipoi.class));
+            }
+        });
+
+        TextView btn3 = view.findViewById(R.id.text14);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), BlueberryCheese.class));
+            }
+        });
         return view;
     }
 }
