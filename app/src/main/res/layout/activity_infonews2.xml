@@ -59,7 +59,7 @@
                     android:gravity="center"
                     android:lineSpacingExtra="-13sp"
                     android:text="บริโภคอาหารอย่างไร ให้มีสุขภาพดี"
-                    android:textColor="@color/black"
+                    android:textColor="#8C5436"
                     android:textSize="22sp"
                     android:textStyle="bold" />
 
@@ -78,7 +78,7 @@
                     android:layout_marginTop="25dp"
                     android:gravity="left"
                     android:text="          ในการบริโภคอาหารเพื่อการมีสุขภาพที่ดี นอกจากบริโภคตามหลัก 5 หมู่แล้ว สำนักโภชนาการกรมอนามัยได้มีข้อแนะนำการบริโภคตามโภชนาการบัญญัติ 9 ประการ ดังนี้"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="18sp" />
 
 
@@ -91,7 +91,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="1. กินอาการให้ครบ 5 หมู่ เพื่อควบคุมน้ำหนักตัวเอง"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="18sp" />
                 <TextView
                     android:id="@+id/arti3"
@@ -102,7 +102,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="2. กินข้าวเป็นหลัก และสลับกับอาหารประเภทแป้งเป็นบางมื้อ เช่น ข้าวกล้อง ข้าวซ้อมมือ"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="18sp" />
                 <TextView
                     android:id="@+id/arti4"
@@ -113,7 +113,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="3. กินพืชผักให้มาก และกินผลไม้เป็นประจำ"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="18sp" />
                 <TextView
                     android:id="@+id/arti5"
@@ -124,7 +124,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="4. กินเนื้อปลา เนื้อสัตว์ ไข่ และถั่วเป็นประจำ"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="18sp" />
                 <TextView
                     android:id="@+id/arti6"
@@ -135,7 +135,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="5. ดื่มนมให้เหมาะสมตามวัย"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="18sp" />
                 <TextView
                     android:id="@+id/arti7"
@@ -146,7 +146,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="6. กินอาหารที่มีไขมันแต่พอเหมาะ"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="18sp" />
                 <TextView
                     android:id="@+id/arti8"
@@ -157,7 +157,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="7. หลีกเลี่ยงอาหารรสหวานจัด เค็มจัด และเผ็ด"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="18sp" />
                 <TextView
                     android:id="@+id/arti9"
@@ -168,7 +168,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="8. กินอาหารที่สะอาด ปราศจากสารปนเปื้อน"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="18sp" />
                 <TextView
                     android:id="@+id/arti10"
@@ -179,7 +179,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="9. งดหรือลด เครื่องดื่มที่มีแอลกอฮอล์"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="18sp" />
 
                 <TextView
