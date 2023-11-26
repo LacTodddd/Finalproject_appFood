@@ -62,7 +62,7 @@
                     android:gravity="center"
                     android:lineSpacingExtra="-13sp"
                     android:text="7 เคล็ดลับวางแผนลดหวานได้สำเร็จ"
-                    android:textColor="@color/black"
+                    android:textColor="#8C5436"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -81,7 +81,7 @@
                     android:layout_marginTop="25dp"
                     android:gravity="left"
                     android:text="   แผนที่ดีจะช่วยเพิ่มโอกาสความสำเร็จในการปรับพฤติกรรม ซึ่งแผนที่ดีควรเป็นแผนที่เหมาะสมกับคนคนนั้น เหมาะกับวิถีชีวิต สภาพจิตใจ แรงจูงใจ และความพร้อมในการลงมือทำ มาดูกันว่าเราจะลดหวานได้อย่างไรด้วยวิธีเหล่านี้"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="18sp" />
 
 
@@ -94,7 +94,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="1.หาแรงจูงใจให้ตัวเอง เช่น ต้องมีสุขภาพดี อย่างมีรูปร่างดี ใส่เสื้อผ้าแล้วดูดี"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="16dp" />
                 <TextView
                     android:id="@+id/arti3"
@@ -105,7 +105,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="2.มีเป้าหมายที่ชัดเจน เช่น จะหยุดดื่มน้ำอัดลมให้ได้ 1 ปี"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="16dp" />
                 <TextView
                     android:id="@+id/arti4"
@@ -116,7 +116,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="3.มีแผนเมื่ออยู่ในสถานการณ์เสี่ยง เช่น เมื่อจำเป็นต้องไปงานเลี้ยงสังสรรค์ จะกินแค่พออิ่ม"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="16dp" />
                 <TextView
                     android:id="@+id/arti5"
@@ -127,7 +127,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="4.จัดบ้านให้ห่างของหวาน เช่น งดซื้อของหวานเข้าบ้าน"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="16dp" />
                 <TextView
                     android:id="@+id/arti6"
@@ -138,7 +138,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="5.หาคนช่วย เช่น หาวิธีพูดคุยให้เขาได้ช่วยปรับพฤติกรรม เพราะคนรอบข้างส่งผลต่อพฤติกรรมของเราได้"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="16dp" />
                 <TextView
                     android:id="@+id/arti7"
@@ -149,7 +149,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="6.มีความรู้และทักษะ เช่น รู้ว่าอาหารแต่ละประเภทมีพลังงานกี่แคลอรี่ ต้องไม่กินน้ำตาลเกิน 6 ช้อนชา/วัน"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="16dp" />
                 <TextView
                     android:id="@+id/arti8"
@@ -160,7 +160,7 @@
                     android:gravity="left"
                     android:paddingLeft="10dp"
                     android:text="7.สะกดจิตตัวเองด้วยคำพูด เช่น ไม่อยากกลับไปป่วยแล้ว"
-                    android:textColor="@color/teal_700"
+                    android:textColor="#773A11"
                     android:textSize="16dp" />
 
                 <TextView
