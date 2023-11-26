@@ -16,9 +16,6 @@
             android:name=".PizzaData"
             android:exported="false" />
         <activity
-            android:name=".DetailedActivity"
-            android:exported="false" />
-        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
