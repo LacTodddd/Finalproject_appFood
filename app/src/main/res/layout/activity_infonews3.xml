@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:scrollbars="none"
+    tools:context=".infonews3">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/arrow_back_24"
+            android:backgroundTint="@color/white"
+            android:elevation="1dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/img_8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            app:cardCornerRadius="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:lineSpacingExtra="-13sp"
+                    android:text="กินหวานมากไปส่งผลอะไรกับร่างกายบ้าง"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/arti1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="25dp"
+                    android:gravity="left"
+                    android:text="          ผู้ที่ชอบรับประทานอาหารหวานจัดบ่อย ๆ จะทำให้ระบบความสมดุลของแร่ธาตุในร่างกายเสียไป ส่งผลกระทบต่อระบบภูมิคุ้มกันโรคในร่างกายต่ำลง ผลที่ตามมาคือ ติดเชื้อง่าย นอกจากนี้การเผาผลาญน้ำตาลในร่างกายบ่อย ๆ ยังเป็นตัวเร่งให้เกิดอนุมูลอิสระ เมื่อบริโภคเป็นเวลานานจะก่อให้เกิดระดับไขมันไตรกลีเซอไรด์ในเลือดสูง อีกทั้งการรับประทานน้ำตาลซูโครสมาก ๆ ทำให้กรดอมิโนที่มีชื่อว่า ทริปโตฟาน ถูกเร่งเข้าสู่สมองมากเกินไป ทำให้เสียสมดุลของฮอร์โมนในสมอง ผลที่ตามมาก็คือทำให้เกิดอาการเซื่องซึม เหนื่อย ไม่กระฉับกระเฉง ซึ่งหากเป็นในเด็กจะทำให้เรียนไม่รู้เรื่อง และหากเป็นวัยทำงานก็จะทำงานไม่มีประสิทธิภาพเท่าที่ควร"
+                    android:textColor="@color/teal_700"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/arti2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="อันตรายจากการกินน้ำตาลมากเกินไป"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/arti3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="left"
+                    android:text="          เนื่องจากร่างกายก็ยังจำเป็นต้องได้รับสารอาหารต่างๆ อย่างครบถ้วนในปริมาณที่เพียงพอ อย่างเช่นน้ำตาลก็เช่นเดียวกัน หลายคนที่ลดน้ำหนักอาจจะหลีกเลี่ยงการทานน้ำตาลโดยสิ้นเชิง
+                   โดยหารู้ไม่ว่าการที่ร่างกายขาดน้ำตาลก็จะส่งผลทำให้ภาวะน้ำตาลในเลือดต่ำ อาจจะทำให้มีอาการต่างๆ ตามมา เช่น หน้ามืด เวียนหัวและรู้สึกอ่อนเพลีย ฯลฯ ก็เป็นได้ โดยเฉพาะผู้ที่เป็นเบาหวาน แม้ว่าไม่ควรกินน้ำตาลมากเพื่อควบคุมไม่ให้ระดับน้ำตาลในเลือดขึ้นสูง อย่างไรก็ดี ควรจะต้องกินน้ำตาลบ้าง ในปริมาณที่พอเหมาะเพื่อควบคุมระดับน้ำตาลไม่ให้ต่ำลง
+"
+                    android:textColor="@color/teal_700"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/arti4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:text="1.ไขมันสะสมตามส่วนต่างๆ ของร่างกาย"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/arti5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="การกินน้ำตาลปริมาณมาก เป็นสาเหตุหลักที่ทำให้เกิดไขมันสะสมตามส่วนต่างๆ ของร่างกาย เนื่องจากน้ำตาลหลายชนิดที่เรากินเข้าไปมักจะเข้าไปเก็บสะสมไว้ที่ตับในรูปของไกลโคเจน แต่เมื่อมีปริมาณมากจนเกินไปจะทำให้ตับส่งกรดไขมันไปตามกระแสเลือด โดยจะทำให้เข้าไปสะสมตามหน้าท้อง ก้น สะโพก หรือต้นขา จนทำให้มีรูปร่างอ้วนหรือมีไขมันส่วนเกินจนไม่น่ามองนั่นเอง"
+                    android:textColor="@color/teal_700"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/white">
+
+                </TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

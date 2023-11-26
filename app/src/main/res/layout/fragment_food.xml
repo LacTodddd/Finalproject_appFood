@@ -32,243 +32,8 @@
             app:layout_constraintVertical_bias="0.024" />
 
 
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="350dp"
-        android:layout_height="98dp"
-        android:layout_margin="20dp"
-        android:layout_marginTop="104dp"
-        android:orientation="vertical"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        android:id="@+id/card1">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-
-            <ImageView
-                android:layout_width="119dp"
-                android:layout_height="100dp"
-                android:src="@drawable/pizza" />
-
-            <LinearLayout
-                android:layout_width="190dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="65dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="Pizza"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:layout_width="112dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:text="266 kcal"
-                    android:textSize="20sp" />
-
-            </LinearLayout>
-
-            <View
-                android:id="@+id/arrow1"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="35dp"
-                android:background="@drawable/baseline_arrow_forward_ios_24">
-            </View>
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
-
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="350dp"
-        android:layout_height="98dp"
-        android:layout_margin="20dp"
-        android:layout_marginTop="104dp"
-        android:orientation="vertical"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/card1"
-        android:id="@+id/card2">
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-
-            <ImageView
-                android:layout_width="119dp"
-                android:layout_height="100dp"
-                android:src="@drawable/pancake" />
-
-            <LinearLayout
-                android:layout_width="190dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="97dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="Pancake"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:layout_width="112dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:text="227 kcal"
-                    android:textSize="20sp" />
-
-            </LinearLayout>
-
-            <View
-                android:id="@+id/arrow2"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="35dp"
-                android:background="@drawable/baseline_arrow_forward_ios_24">
-            </View>
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="350dp"
-        android:layout_height="98dp"
-        android:layout_margin="20dp"
-        android:layout_marginTop="104dp"
-        android:orientation="vertical"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/card2"
-        android:id="@+id/card3">
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-
-            <ImageView
-                android:layout_width="119dp"
-                android:layout_height="100dp"
-                android:src="@drawable/fries" />
-
-            <LinearLayout
-                android:layout_width="190dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="138dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="French fries"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:layout_width="112dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:text="311 kcal"
-                    android:textSize="20sp" />
-
-             </LinearLayout>
-
-                <View
-                android:id="@+id/arrow3"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="35dp"
-                android:background="@drawable/baseline_arrow_forward_ios_24">
-                </View>
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
         <androidx.cardview.widget.CardView
-        android:layout_width="350dp"
-        android:layout_height="98dp"
-        android:layout_margin="20dp"
-        android:layout_marginTop="104dp"
-        android:orientation="vertical"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/card3"
-        android:id="@+id/card4">
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-
-            <ImageView
-                android:layout_width="119dp"
-                android:layout_height="100dp"
-                android:src="@drawable/cake" />
-
-            <LinearLayout
-                android:layout_width="190dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="65dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="Cake"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:layout_width="112dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:text="416 kcal"
-                    android:textSize="20sp" />
-
-            </LinearLayout>
-
-            <View
-                android:id="@+id/arrow4"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="35dp"
-                android:background="@drawable/baseline_arrow_forward_ios_24">
-            </View>
-        </LinearLayout>
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
             android:layout_width="350dp"
             android:layout_height="98dp"
             android:layout_margin="20dp"
@@ -279,8 +44,244 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.475"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/card4"
-            android:id="@+id/card5">
+            app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+            <LinearLayout
+                android:id="@+id/li1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/pizzarealpapatod" />
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text11"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="พิซซ่า"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="266 kcal"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/arrow1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/baseline_arrow_forward_ios_24"></View>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="350dp"
+            android:layout_height="98dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="104dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/gekhuyloveyou" />
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text12"
+                        android:layout_width="97dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="เก๊กฮวย"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="72 kcal"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/arrow2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/baseline_arrow_forward_ios_24"></View>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="350dp"
+            android:layout_height="98dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="104dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card2">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/gapoigai1" />
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text13"
+                        android:layout_width="138dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="กระเพราไก่"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="400 kcal"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/arrow3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/baseline_arrow_forward_ios_24"></View>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card4"
+            android:layout_width="350dp"
+            android:layout_height="98dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="104dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card3">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/blueberrycheesecakeisgood" />
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text14"
+                        android:layout_width="163dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Blueburry Cake"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="138 kcal"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/arrow4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/baseline_arrow_forward_ios_24"></View>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card5"
+            android:layout_width="350dp"
+            android:layout_height="98dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="104dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card4">
 
 
             <LinearLayout
@@ -322,12 +323,12 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="35dp"
-                    android:background="@drawable/baseline_arrow_forward_ios_24">
-                </View>
+                    android:background="@drawable/baseline_arrow_forward_ios_24"></View>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/card6"
             android:layout_width="350dp"
             android:layout_height="98dp"
             android:layout_margin="20dp"
@@ -338,8 +339,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.475"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/card5"
-            android:id="@+id/card6">
+            app:layout_constraintTop_toBottomOf="@+id/card5">
 
 
             <LinearLayout
@@ -351,7 +351,7 @@
                 <ImageView
                     android:layout_width="119dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/cake" />
+                    android:src="@drawable/maggi" />
 
                 <LinearLayout
                     android:layout_width="190dp"
@@ -362,14 +362,14 @@
                         android:layout_width="65dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Cake"
+                        android:text="Mama"
                         android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="112dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
-                        android:text="416 kcal"
+                        android:text="636 kcal"
                         android:textSize="20sp" />
 
                 </LinearLayout>
@@ -381,12 +381,12 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="35dp"
-                    android:background="@drawable/baseline_arrow_forward_ios_24">
-                </View>
+                    android:background="@drawable/baseline_arrow_forward_ios_24"></View>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/card7"
             android:layout_width="350dp"
             android:layout_height="98dp"
             android:layout_margin="20dp"
@@ -397,8 +397,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.475"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/card6"
-            android:id="@+id/card7">
+            app:layout_constraintTop_toBottomOf="@+id/card6">
 
 
             <LinearLayout
@@ -410,7 +409,7 @@
                 <ImageView
                     android:layout_width="119dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/cake" />
+                    android:src="@drawable/fries" />
 
                 <LinearLayout
                     android:layout_width="190dp"
@@ -418,17 +417,17 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="65dp"
+                        android:layout_width="143dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Cake"
+                        android:text="Friend Fries"
                         android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="112dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
-                        android:text="416 kcal"
+                        android:text="330 kcal"
                         android:textSize="20sp" />
 
                 </LinearLayout>
@@ -440,12 +439,12 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="35dp"
-                    android:background="@drawable/baseline_arrow_forward_ios_24">
-                </View>
+                    android:background="@drawable/baseline_arrow_forward_ios_24"></View>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/card8"
             android:layout_width="350dp"
             android:layout_height="98dp"
             android:layout_margin="20dp"
@@ -456,8 +455,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.475"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/card7"
-            android:id="@+id/card8">
+            app:layout_constraintTop_toBottomOf="@+id/card7">
 
 
             <LinearLayout
@@ -469,7 +467,7 @@
                 <ImageView
                     android:layout_width="119dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/cake" />
+                    android:src="@drawable/pasta" />
 
                 <LinearLayout
                     android:layout_width="190dp"
@@ -480,14 +478,14 @@
                         android:layout_width="65dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Cake"
+                        android:text="Pasta"
                         android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="112dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
-                        android:text="416 kcal"
+                        android:text="131 kcal"
                         android:textSize="20sp" />
 
                 </LinearLayout>
@@ -499,8 +497,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="35dp"
-                    android:background="@drawable/baseline_arrow_forward_ios_24">
-                </View>
+                    android:background="@drawable/baseline_arrow_forward_ios_24"></View>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -510,5 +507,5 @@
             app:layout_constraintTop_toBottomOf="@+id/card8">
 
         </TextView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

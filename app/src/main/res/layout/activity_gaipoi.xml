@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PizzaData">
+    tools:context=".gaipoi">
 
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="@drawable/pizza4k"
+        android:background="@drawable/gai"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +41,7 @@
                 android:layout_marginTop="12dp"
                 android:gravity="center"
                 android:lineSpacingExtra="-13sp"
-                android:text="Pizza"
+                android:text="กระเพราไก่"
                 android:textColor="@color/lavender"
                 android:textSize="30sp" />
 
@@ -60,21 +60,11 @@
                 android:gravity="left"
                 android:lineSpacingExtra="-13sp"
                 android:paddingLeft="10dp"
-                android:text=":   พิซซ่า 1 ชิ้นให้พลังงาน 329 kcal."
+                android:text=":   กระเพราไก่ 1 จานให้พลังงาน 400 kcal."
                 android:textColor="@color/lavender"
                 android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/pizza2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:gravity="left"
-                android:lineSpacingExtra="-13sp"
-                android:paddingLeft="10dp"
-                android:text=":   พิซซ่า 1 ถาดให้พลังงาน 2469 kcal."
-                android:textColor="@color/lavender"
-                android:textSize="20sp" />
+
 
             <TextView
                 android:id="@+id/info"
@@ -96,7 +86,7 @@
                 android:gravity="left"
                 android:lineSpacingExtra="-1sp"
                 android:paddingLeft="20dp"
-                android:text=" ในปริมาณ 1 slice (113g) มีพลังงานทั้งหมด 329 กิโลแคลอรี่, โปรตีน 13 กรัม, คาร์โบไฮเดรต 35.9 กรัม, ไขมัน 14.8 กรัม เราสามารถดูรายละเอียดข้อมูลอื่นๆ เข่น เกลือโซเดียม, คอเลสเตอรอล, วิตามิน, ไขมันอิ่มตัว, ไขมันไม่อิ่มตัว, น้ำตาล, กากไยอาหาร ฯลฯ"
+                android:text=" มีพลังงานทั้งหมด 400 กิโลแคลอรี่, โปรตีน 37.7 กรัม, คาร์โบไฮเดรต 43.9 กรัม, ไขมัน 8.5 กรัม เราสามารถดูรายละเอียดข้อมูลอื่นๆ เข่น เกลือโซเดียม, คอเลสเตอรอล, วิตามิน, ไขมันอิ่มตัว, ไขมันไม่อิ่มตัว, น้ำตาล, กากไยอาหาร ฯลฯ"
                 android:textColor="#7ECC49"
                 android:textSize="20sp" />
         </LinearLayout>

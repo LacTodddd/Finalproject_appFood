@@ -81,12 +81,15 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/h_1" />
 
                         <TextView
+                            android:id="@+id/textart1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -114,12 +117,15 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/h_2" />
 
                         <TextView
+                            android:id="@+id/textart2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -148,7 +154,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/h_3" />
@@ -181,7 +189,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/h_4" />
@@ -241,7 +251,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/d_1" />
@@ -274,12 +286,15 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/d_2" />
 
                         <TextView
+                            android:id="@+id/textart3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -307,12 +322,15 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/d_3" />
 
                         <TextView
+                            android:id="@+id/textart4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -340,7 +358,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/d_4" />
@@ -398,7 +418,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/w_1" />
@@ -429,7 +451,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/w_2" />
@@ -460,7 +484,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/w_3" />
@@ -491,7 +517,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/w_4" />

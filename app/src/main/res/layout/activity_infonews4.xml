@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:scrollbars="none"
+    tools:context=".infonews3">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/arrow_back_24"
+            android:backgroundTint="@color/white"
+            android:elevation="1dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/img_8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            app:cardCornerRadius="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:lineSpacingExtra="-13sp"
+                    android:text="7 เคล็ดลับวางแผนลดหวานได้สำเร็จ"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/arti1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="25dp"
+                    android:gravity="left"
+                    android:text="   แผนที่ดีจะช่วยเพิ่มโอกาสความสำเร็จในการปรับพฤติกรรม ซึ่งแผนที่ดีควรเป็นแผนที่เหมาะสมกับคนคนนั้น เหมาะกับวิถีชีวิต สภาพจิตใจ แรงจูงใจ และความพร้อมในการลงมือทำ มาดูกันว่าเราจะลดหวานได้อย่างไรด้วยวิธีเหล่านี้"
+                    android:textColor="@color/teal_700"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/arti2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="1.หาแรงจูงใจให้ตัวเอง เช่น ต้องมีสุขภาพดี อย่างมีรูปร่างดี ใส่เสื้อผ้าแล้วดูดี"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16dp" />
+                <TextView
+                    android:id="@+id/arti3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="2.มีเป้าหมายที่ชัดเจน เช่น จะหยุดดื่มน้ำอัดลมให้ได้ 1 ปี"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16dp" />
+                <TextView
+                    android:id="@+id/arti4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="3.มีแผนเมื่ออยู่ในสถานการณ์เสี่ยง เช่น เมื่อจำเป็นต้องไปงานเลี้ยงสังสรรค์ จะกินแค่พออิ่ม"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16dp" />
+                <TextView
+                    android:id="@+id/arti5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="4.จัดบ้านให้ห่างของหวาน เช่น งดซื้อของหวานเข้าบ้าน"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16dp" />
+                <TextView
+                    android:id="@+id/arti6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="5.หาคนช่วย เช่น หาวิธีพูดคุยให้เขาได้ช่วยปรับพฤติกรรม เพราะคนรอบข้างส่งผลต่อพฤติกรรมของเราได้"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16dp" />
+                <TextView
+                    android:id="@+id/arti7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="6.มีความรู้และทักษะ เช่น รู้ว่าอาหารแต่ละประเภทมีพลังงานกี่แคลอรี่ ต้องไม่กินน้ำตาลเกิน 6 ช้อนชา/วัน"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16dp" />
+                <TextView
+                    android:id="@+id/arti8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="7.สะกดจิตตัวเองด้วยคำพูด เช่น ไม่อยากกลับไปป่วยแล้ว"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/white">
+
+                </TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
