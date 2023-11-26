@@ -81,7 +81,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/h_1" />
@@ -114,7 +116,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/h_2" />
@@ -148,7 +152,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/h_3" />
@@ -181,7 +187,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/h_4" />
@@ -241,7 +249,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/d_1" />
@@ -274,7 +284,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/d_2" />
@@ -307,7 +319,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/d_3" />
@@ -340,7 +354,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/d_4" />
@@ -398,7 +414,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/w_1" />
@@ -429,7 +447,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/w_2" />
@@ -460,7 +480,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/w_3" />
@@ -491,7 +513,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="10dp"
                             android:src="@drawable/w_4" />
