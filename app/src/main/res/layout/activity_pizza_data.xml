@@ -18,9 +18,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="550dp"
-        android:layout_marginTop="216dp"
+        android:layout_marginTop="200dp"
         app:cardCornerRadius="60dp"
         app:cardElevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +30,7 @@
 
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="420dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
@@ -48,7 +48,7 @@
             <ProgressBar
                 android:id="@+id/progressBar"
                 style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="400dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp" />
 
